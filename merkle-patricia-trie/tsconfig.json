@@ -1,0 +1,21 @@
+{
+    "include": [
+      "*.ts",
+    ],
+    "compilerOptions": {
+      "outDir": "dist",
+      "lib": [ "DOM", "esnext" ],
+      "target": "ESNext",
+      "module" : "ESNext",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "strict" : true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
